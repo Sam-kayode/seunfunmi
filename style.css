@@ -16,6 +16,7 @@ header {
   display:flex;
   justify-content: center;
   color:white;
+  min-height:70vh
 }
 
 header p{
@@ -26,7 +27,6 @@ font-size: 25px !important;
 
 .icons {
   width: 35px;
-  height: 80px;
   margin: 0px 2px 0px 2px;
   padding: 0;
 }
@@ -36,7 +36,7 @@ font-size: 25px !important;
 }
 
 .desc {
-margin-top:35vh;
+margin-top:30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,5 +65,6 @@ margin-top:35vh;
 @media(min-width:500px){
   header{
     background-position: center;
+    background-size:contain;
   }
 }
