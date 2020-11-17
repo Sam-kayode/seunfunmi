@@ -5,22 +5,30 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   transition: 0.5s;
+  background-color: #ffffff;
 }
 
 header {
-  background: rgb(164, 179, 187);
+  background:linear-gradient(to bottom,rgba(0, 0, 0, 0.7)10%,rgba(0, 0, 0, 0.7)19%,rgba(0, 0, 0, 0.7)25% ,rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.7) 55%, rgba(0, 0, 0, 0.7) 70%), url("./images/seun.jpeg");
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height:80vh;
+  display:flex;
+  justify-content: center;
+  color:white;
 }
 
-header img {
-  width: 150px;
-  border-radius: 50%;
-  height: 190px;
+.header i{
+
+font-size: 40px;
 }
+
 
 .icons {
   width: 35px;
   height: 80px;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 2px 0px 2px;
   padding: 0;
 }
 
@@ -29,13 +37,14 @@ header img {
 }
 
 .desc {
+margin-top:50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .about-me {
-  background: rgb(232, 238, 241);
+  background: #e8eef1;
 }
 .about-me p {
   margin: 0px;
@@ -54,3 +63,8 @@ header img {
    color:orange;
  }
 
+@media(min-width:500px){
+  header{
+    background-position: center;
+  }
+}
