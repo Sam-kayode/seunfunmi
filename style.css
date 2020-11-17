@@ -9,11 +9,10 @@ body {
 }
 
 header {
-  background:linear-gradient(to bottom,rgba(0, 0, 0, 0.7)10%,rgba(0, 0, 0, 0.7)19%,rgba(0, 0, 0, 0.7)25% ,rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.7) 55%, rgba(0, 0, 0, 0.7) 70%), url("./images/seun (2).jpeg");
+  background:linear-gradient(to bottom,rgba(0, 0, 0, 0.7)10%,rgba(0, 0, 0, 0.7)19%,rgba(0, 0, 0, 0.7)25% ,rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.7) 55%, rgba(0, 0, 0, 0.7) 60%), url("./images/seun (2).jpeg");
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  min-height:70vh;
   display:flex;
   justify-content: center;
   color:white;
@@ -37,7 +36,7 @@ font-size: 25px !important;
 }
 
 .desc {
-margin-top:50vh;
+margin-top:35vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
